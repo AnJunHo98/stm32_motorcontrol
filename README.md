@@ -23,7 +23,7 @@ As implemented in `0514all/Core/Src/main.c`:
   - `Drivers/` – ST-provided CMSIS and STM32F7xx HAL drivers
   - `STM32F767ZITX_FLASH.ld`, `STM32F767ZITX_RAM.ld` – linker scripts
   - `0514all Debug.launch` – STM32CubeIDE debug configuration (ST-LINK)
-  - `Debug/` – STM32CubeIDE build outputs (object files, `.elf`, `.map`, ...); not needed to rebuild the project
+  - `Debug/` – STM32CubeIDE build output folder, created when you build; git-ignored and not part of the repository
 
 ## Requirements
 
